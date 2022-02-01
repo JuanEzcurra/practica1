@@ -1,0 +1,36 @@
+main{
+
+    margin-top: 30px;
+    
+    }
+    
+    
+    button:hover {
+    
+        background-color: #0022AA;
+    
+        }    
+        
+    button:hover a{
+    
+        color: white;
+        
+        }    
+    
+    
+    button {
+        
+        transition-property: background-color;
+        transition-duration: 0.5s;
+        text-decoration: none;
+    
+        
+        }
+    
+    
+    
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    

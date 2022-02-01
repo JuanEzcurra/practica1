@@ -1,0 +1,407 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.main-header{
+
+    background-color: #EAC926;
+    padding: 20px;
+
+}
+
+.top-header{
+
+width: 100%;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+header div.logo{
+
+    width: 50%;
+
+}
+
+header div.logo{
+
+    padding: 10px;
+
+}
+
+
+
+.search{
+    background-color: #FFF;
+    width: 50%;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    padding-right: 9px;
+    border-radius: 3px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}  
+
+.search input{
+
+    width: 95%;
+    border: none;
+    outline: none;
+    text-decoration: none ;
+    
+
+}
+
+
+.search i{
+
+    width: 5%;
+
+
+}
+
+
+.main-header-bottom-bar{
+
+    display:none;
+
+}    
+
+.main-header-bottom-bar ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.main-header-bottom-bar a{
+
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    color: #FFF;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin:auto;
+}
+
+section.banner img{
+
+    width: 100%;
+
+}
+  
+
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;;
+    font-size: 12px;
+}
+
+
+
+p{
+
+    font-size: 12px;
+
+}
+
+h3{
+
+    font-size: 24px;
+
+}
+
+.price{
+
+    font-size: 18px;
+    width: 30%;
+
+}
+
+.discount{
+
+    font-size: 16px;
+    font-weight: normal;
+    width: 70%;
+
+}
+
+.description{
+
+    font-size: 16px;
+    font-weight: normal;
+    display:none;
+    transition: display 450ms;
+
+}
+
+main {
+
+    margin: auto;
+    width: 90vw;
+
+}
+
+main section article:hover .description{
+    
+    display:block;
+
+}
+
+.dues{
+
+    text-align: center;
+
+}
+
+main section article img{
+
+    width: 100%;
+     
+}
+
+
+
+footer{
+    text-align: center;
+    color: #666;
+    background-color: white;
+    margin-top: 10px;
+    
+    padding-top: 20px;
+
+}
+
+footer i {
+
+    color: #0044AA;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: color 100ms;
+
+}
+
+footer i:hover {
+
+    color: #39b54a;
+
+}
+
+
+footer section {
+
+    margin-bottom: 30px;
+
+}
+
+footer h4{
+
+    font-size: 16px;
+
+}
+
+
+
+main article{
+        
+    margin: 10px 0px;
+    height: fit-content;
+    transition: box-shadow;
+
+}
+
+main section article i{
+
+    display: block ;
+    font-size: 16px ;
+    padding: 5px ;
+    width: 30px ;
+    height: 30px ;
+    border: 1px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50% ;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: transform 1000ms;   
+    
+}
+
+main section article i:hover{
+
+    transform: rotate(-90deg)
+
+}
+
+
+
+
+main section article i,
+.discount{
+
+    color: #39b54a;
+
+}
+
+
+
+
+
+
+.price_discount{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+
+
+}
+
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+    background-color: white;
+    
+}
+
+@media (min-width: 361px){
+
+
+
+    .main-header-bottom-bar{
+        display:block;
+         
+    }   
+    div.burger-menu i{
+        display: none;
+    } 
+    .ofertas,         
+    .últimaVisita{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+                        
+            }
+    .ofertas article,             
+    .últimaVisita article {
+
+        width: 47%;
+
+    }
+
+    .price{
+        width:50%;
+    }
+    .discount{
+    
+        width: 50%;
+
+    }
+    .top-header2{
+
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+   
+    .top-header{
+
+width: 70%;
+justify-content: space-around;
+
+    }
+    .dues{
+
+        width: 30%;
+
+    }
+
+    .main-header-bottom-bar{
+
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .left-navbar{
+
+        width: 40%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right-navbar{
+
+        width: 40%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+ 
+}
+
+@media (min-width: 769px){
+
+    .ofertas article,     
+    .últimaVisita article {
+
+        width: 22.5%;
+        
+    }
+
+    .footertop{
+
+        display: flex;
+    
+    }
+
+}
+
+main section article:hover {
+
+    
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     
+
+}
+
+
